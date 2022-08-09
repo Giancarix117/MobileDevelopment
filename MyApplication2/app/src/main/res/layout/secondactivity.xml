@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="top"
+            android:src="@drawable/florian_wehde_wbgjg0dso_g_unsplash" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            android:text="Barcelona, Spain"
+            android:textColor="#E4E5E8"
+            android:textSize="20dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="20dp"
+            app:srcCompat="@android:drawable/ic_dialog_map" />
+    </FrameLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+
+    android:orientation="horizontal">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        app:shapeAppearance="@style/ShapeAppearanceOverlay.Picture"
+        android:src="@drawable/chonk"
+        app:civ_border_color="#3f51b5"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#3f51b5"></com.google.android.material.imageview.ShapeableImageView>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:layout_gravity="bottom"
+        android:text="Mezcal"
+        android:textColor="@color/white"
+        ></TextView>
+    <View
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+></View>
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/favpng_app_icon_download_icon_essential_icon"
+        android:contentDescription="Button"></Button>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+
+        android:contentDescription="OtroButton"
+        android:background="@drawable/nicepng_heartbeat_png_231720"></Button>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_gravity="bottom"
+
+        android:background="@drawable/_citypng_com_hd_bookmark_white_icon_symbol_transparent_png___512x512"
+        android:contentDescription="OtroButton"></Button>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#706767"
+></View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+
+    android:orientation="horizontal">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Camera"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="NIKON D32000"
+            android:textColor="@color/white"
+            android:textSize="20sp"></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            ></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center|top"
+            android:layout_height="30dp"
+            android:text="Focal Point"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center|top"
+            android:layout_height="30dp"
+            android:text="18.0mm"
+            android:textColor="@color/white" android:textSize="20sp"
+            ></TextView>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center|top"
+            android:layout_height="30dp"
+            android:text="ISO"
+            android:textColor="@color/white" android:textSize="20sp"
+            android:textStyle="bold"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center|top"
+            android:layout_height="30dp"
+            android:text="100"
+            android:textColor="@color/white" android:textSize="20sp"
+            ></TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="30dp"
+        android:text="Aperture"
+        android:textColor="@color/white" android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="30dp"
+        android:text="f/5.0"
+        android:textColor="@color/white" android:textSize="20sp"
+        ></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        ></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="30dp"
+        android:text="Shutter Speed"
+        android:textColor="@color/white" android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+    android:layout_width="match_parent"
+    android:gravity="center|top"
+    android:layout_height="30dp"
+    android:text="1/125s"
+    android:textColor="@color/white" android:textSize="20sp"
+    ></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        ></View>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="30dp"
+        android:text="Dimension"
+        android:textColor="@color/white" android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center|top"
+        android:layout_height="30dp"
+        android:text="3906X4882"
+        android:textColor="@color/white" android:textSize="20sp"
+        ></TextView>
+</LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#706767"
+        ></View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+
+        android:orientation="horizontal">
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            ></View>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="Views"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            ></View>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="Downloads"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            ></View>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="Likes"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+
+        android:orientation="horizontal">
+        <View
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            ></View>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="1.2K"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            ></TextView>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            ></View>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="3k"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            ></TextView>
+        <View
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            ></View>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:gravity="center|top"
+            android:text="10k"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            ></TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#474545"
+            android:gravity="center|top"
+            android:text="spain"
+            android:textColor="#F3EFEF"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="#474545"
+            android:gravity="center|top"
+            android:text="barcelona"
+            android:textColor="@color/white"
+            android:textSize="20sp"></TextView></LinearLayout>
+
+</LinearLayout>
